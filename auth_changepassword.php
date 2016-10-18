@@ -298,9 +298,11 @@ print "<body class='loginBody'>
 	<div class='loginRight'></div>
 	<script type='text/javascript'>
 	$(function() {
-		$('#current').focus();
+		$('body').css('height', $(window).height());
 		$('.loginLeft').css('width',parseInt($(window).width()*0.33)+'px');
 		$('.loginRight').css('width',parseInt($(window).width()*0.33)+'px');
+		$('.loginBody').css('visibility', 'visible');
+		$('#current').focus();
 	});
 	</script>
 	</body>
