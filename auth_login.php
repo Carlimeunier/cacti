@@ -614,6 +614,7 @@ if (api_plugin_hook_function('custom_login', OPER_MODE_NATIVE) == OPER_MODE_RESK
 		$('body').css('height', $(window).height());
 		$('.loginLeft').css('width',parseInt($(window).width()*0.33)+'px');
 		$('.loginRight').css('width',parseInt($(window).width()*0.33)+'px');
+		$('.loginBody').css('visibility', 'visible');
 	});
 	</script>
 </body>
